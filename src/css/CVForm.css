@@ -1,0 +1,64 @@
+.cv-form {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.cv-form h1 {
+  text-align: center;
+}
+
+.cv-form > div, .cv-form > div > div{
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #384152;
+}
+
+
+.cv-form input,
+.cv-form textarea,
+.cv-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  flex: 2;
+  background-color: black;
+  border: 0;
+  border-radius: 6px;
+  outline: 0;
+}
+
+.cv-form button {
+  background-color: #05976a;
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+}
+
+.cv-form button:hover {
+    opacity: 90%;
+}
+
+
+
+.cv-form p{
+    text-wrap: wrap;
+    overflow: auto;
+}
+
+@media (max-width: 600px) {
+  .cv-form button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cv-form {
+    width: 100%;
+  }
+}
