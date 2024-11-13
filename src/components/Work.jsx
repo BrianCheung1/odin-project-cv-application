@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../css/work.css"
+import "../css/Work.css"
 const Work = () => {
     const [workEntries, setWorkEntries] = useState([]);
 
